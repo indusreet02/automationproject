@@ -67,7 +67,7 @@ public class Test extends Base{
         WebElement displayObj = driver.findElement(By.xpath(obj));
         String actualAmount = displayObj.getText();
         if (expectedAmount.equals(actualAmount)){
-            System.out.println("ExpectedAmount-" + expectedAmount + " is successfully matched with ActualAmount which is-"+ actualAmount);
+            System.out.println("ExpectedAmount(" + expectedAmount + ") is successfully match with ActualAmount("+ actualAmount+")");
         }
     }
 
